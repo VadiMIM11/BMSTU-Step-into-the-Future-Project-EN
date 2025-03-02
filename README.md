@@ -6,7 +6,7 @@ This project is a C# application developed for a coding competition hosted by Ba
 
 ## Purpose
 
-The primary goal of the project is to evaluate and compare different approaches to assessing network reliability. In this context, reliability is defined as the probability that a signal originating from a source node (A) will successfully reach a destination node (B). The project provides insights into the strengths and trade-offs of each method:
+The primary goal of the project is to evaluate and compare different approaches to assessing network reliability. In this context, reliability is defined as the probability that a signal originating from a source node will successfully reach a destination node. The project provides insights into the strengths and trade-offs of each method:
 
 - **Experimental Method:** Uses a Monte Carlo simulation approach by performing a large number of experiments. In each experiment, node failures are simulated based on given reliability values, and the existence of at least one path from the source to the destination is checked.
 - **Analytical Method:** Employs logical analysis using techniques such as disjunctive normal forms (DNF), truth tables, and the inclusion-exclusion principle to compute the exact probability of successful communication.
